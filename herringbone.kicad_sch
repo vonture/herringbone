@@ -3472,12 +3472,6 @@
 		(uuid "07baf816-235d-4583-b43f-a610130082a5")
 	)
 	(junction
-		(at 140.97 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "084943e3-d125-4028-af81-f99edf2eb26d")
-	)
-	(junction
 		(at 234.95 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3614,12 +3608,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "595795c2-47c1-4542-9762-d465aa9756e4")
-	)
-	(junction
-		(at 144.78 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "603f2791-0a11-4a52-936b-9bb013391bf6")
 	)
 	(junction
 		(at 67.31 54.61)
@@ -3954,16 +3942,6 @@
 	(no_connect
 		(at 46.99 115.57)
 		(uuid "ddc0c726-fe43-48d4-a85a-7b70e0dd65e0")
-	)
-	(wire
-		(pts
-			(xy 140.97 54.61) (xy 140.97 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000caf3f-0ab7-416b-82f1-8286c158d1bf")
 	)
 	(wire
 		(pts
@@ -4717,6 +4695,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 54.61) (xy 140.97 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc9367c-a93b-44c4-83fa-7046bff96552")
+	)
+	(wire
+		(pts
 			(xy 138.43 67.31) (xy 149.86 67.31)
 		)
 		(stroke
@@ -4804,16 +4792,6 @@
 			(type default)
 		)
 		(uuid "8136485c-ed56-49e5-beba-89b1a782378c")
-	)
-	(wire
-		(pts
-			(xy 144.78 69.85) (xy 144.78 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82042f79-ab66-47d8-9ff0-a514e56cf254")
 	)
 	(wire
 		(pts
@@ -5124,6 +5102,16 @@
 			(type default)
 		)
 		(uuid "b7f8b980-cc7d-4400-93b9-8d450edda348")
+	)
+	(wire
+		(pts
+			(xy 144.78 69.85) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b893288d-d63b-4000-99e0-350f83dfd603")
 	)
 	(wire
 		(pts
@@ -8256,6 +8244,70 @@
 		)
 	)
 	(symbol
+		(lib_id "torn_left-rescue:GND-power")
+		(at 140.97 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1da51dad-2617-4076-a8a7-74f7aab2f23c")
+		(property "Reference" "#PWR018"
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.097 64.0842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cf6b164-f3dc-4ee7-ac04-7b4bed88096a")
+		)
+		(instances
+			(project "herringbone"
+				(path "/44dd7199-56c3-4a99-8ba5-a286c9c8aec3"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 248.92 44.45 0)
 		(unit 1)
@@ -9367,6 +9419,72 @@
 			(project "houndstooth"
 				(path "/44dd7199-56c3-4a99-8ba5-a286c9c8aec3"
 					(reference "D1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c060f19-91a5-4b62-a7de-bebe214ce8e3")
+		(property "Reference" "#PWR09"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "172a5a2d-6751-4aec-abe9-c0d0b04e2ca7")
+		)
+		(instances
+			(project "herringbone"
+				(path "/44dd7199-56c3-4a99-8ba5-a286c9c8aec3"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
