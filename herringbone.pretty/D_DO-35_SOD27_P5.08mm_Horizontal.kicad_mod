@@ -280,15 +280,15 @@
 		(uuid "f7a7a217-a356-4a22-94a2-bbe71ce36924")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P5.08mm_Horizontal.step"
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 		(offset
 			(xyz 1.3 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.66 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
