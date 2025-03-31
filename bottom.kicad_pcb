@@ -78,7 +78,7 @@
 		(tenting front back)
 		(grid_origin 57.15 38.1)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_57555550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -108,14 +108,14 @@
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/")
 		)
 	)
 	(net 0 "")
@@ -1062,7 +1062,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "565f13ba-16b3-437e-8d16-2609eef8dfa8")
+			(uuid "36d48545-3eec-4381-89f5-4505905e4264")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1074,7 +1074,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c72d43fb-eea6-4b72-867c-ffc48a5c1a73")
+			(uuid "e61a48b2-34ce-46b5-8ca2-21512ab20772")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1086,7 +1086,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "57ab7def-69e7-407c-ab2a-895150502c58")
+			(uuid "33bcf6e0-c991-4ccd-909a-98e5353b911b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3b26d91c-1c01-48a3-9763-1d17d9890649")
+			(uuid "17d7f93c-8a49-44c7-8d0b-a570b688534b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,6 +7972,17 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_circle
+		(center 161.9 142.9)
+		(end 163 142.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "00052833-ae88-468f-8440-7a660ffc68cf")
+	)
 	(gr_line
 		(start 178 161.95)
 		(end 69.65 161.95)
@@ -7981,6 +7992,28 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "173deed1-7ade-4d61-b6c5-a604568391d9")
+	)
+	(gr_circle
+		(center 85.725 85.725)
+		(end 86.825 85.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "19cf8d18-7e80-4d8c-8d19-adec074bd075")
+	)
+	(gr_circle
+		(center 161.925 85.725)
+		(end 163.025 85.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "1d2d88b1-8fdf-43a6-b359-89ab8b243289")
 	)
 	(gr_arc
 		(start 178 39.1)
@@ -8014,6 +8047,28 @@
 		(layer "Edge.Cuts")
 		(uuid "3563f95e-9658-4cb3-842f-9c387eaffd74")
 	)
+	(gr_circle
+		(center 177.04 62.6)
+		(end 178.14 62.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "3f66e47b-b3ce-4e92-b86e-ec82b4572bcc")
+	)
+	(gr_circle
+		(center 70.65 62.6)
+		(end 71.75 62.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "4bcc949d-aefb-4e66-a696-5baca8d5d295")
+	)
 	(gr_arc
 		(start 181 158.95)
 		(mid 180.12132 161.07132)
@@ -8024,6 +8079,28 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "82478148-6b6d-4b04-8f48-1cac15d6e6eb")
+	)
+	(gr_circle
+		(center 177.04 43.1)
+		(end 178.14 43.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8299a529-920d-4a8a-a9e0-aaca30569b14")
+	)
+	(gr_circle
+		(center 70.65 43.1)
+		(end 71.75 43.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "9477318d-7a8d-4dbf-b2f8-3e10d2ebe6e3")
 	)
 	(gr_arc
 		(start 69.65 161.95)
@@ -8055,6 +8132,28 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "b7b5b531-d3ef-44f5-98f3-cc6038b3a1d4")
+	)
+	(gr_circle
+		(center 123.825 104.775)
+		(end 124.925 104.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "c05e032f-ad3b-472f-8033-e4e19ae3e441")
+	)
+	(gr_circle
+		(center 85.725193 142.871444)
+		(end 86.825193 142.871444)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ce491770-e483-4953-a2af-b3271d8bb4e4")
 	)
 	(gr_line
 		(start 71.1 39.1)
