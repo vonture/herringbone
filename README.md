@@ -3,6 +3,8 @@ Herringbone
 
 A split ortholinear grid keyboard made with through hole components.
 
+![herringbone](./doc/img/pcb.png)
+
 ## Inspired by
  - [Plaid](https://github.com/hsgw/plaid)
  - [Torn](https://github.com/rtitmuss/torn)
