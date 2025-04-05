@@ -530,7 +530,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/models/ATMEGA328_PU/28P3_SPDIP28_SP_MCH.step"
+	(model "${KIPRJMOD}/../models/ATMEGA328_PU/28P3_SPDIP28_SP_MCH.step"
 		(offset
 			(xyz 0 0 3.5)
 		)

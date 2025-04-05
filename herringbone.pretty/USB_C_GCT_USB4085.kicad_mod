@@ -271,7 +271,7 @@
 		(uuid "f52d30ab-a9ef-4cb6-b0e5-187873c540bb")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/models/USB4085_GF_A/USB4085-GF-A.STEP"
+	(model "${KIPRJMOD}/../models/USB4085_GF_A/USB4085-GF-A.STEP"
 		(offset
 			(xyz 0 2 -0.2)
 		)
@@ -280,17 +280,6 @@
 		)
 		(rotate
 			(xyz -90 -0 -0)
-		)
-	)
-	(model "C:/Users/bryan/OneDrive/kicad projects/libraries/Type-C.pretty/USB_C_GCT_USB4085.step"
-		(offset
-			(xyz 0 -2 -0.2)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
 		)
 	)
 )

@@ -669,7 +669,7 @@
 		(uuid "88a80856-c420-4e4a-8324-2e50ba4bfc53")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/models/SJ_43514/SJ-43514.STEP"
+	(model "${KIPRJMOD}/../models/SJ_43514/SJ-43514.STEP"
 		(offset
 			(xyz -5.5 0 2)
 		)

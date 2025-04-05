@@ -1,0 +1,8 @@
+production
+*.kicad_prl
+fp-info-cache
+fp-lib-cache
+fp-lib-table
+sym-lib-table
+design-block-lib-table
+*-backups
