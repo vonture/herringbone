@@ -10,6 +10,10 @@ A split ortholinear grid keyboard made with through hole components.
  - [Torn](https://github.com/rtitmuss/torn)
  - [Discipline](https://github.com/coseyfannitutti/discipline)
 
+## BOM
+
+https://octopart.com/bom-tool/v2/9F35A43C-BB16-4669-B263-24A030B88F93
+
 ## License
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
