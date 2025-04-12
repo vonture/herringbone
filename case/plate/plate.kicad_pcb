@@ -405,6 +405,7 @@
 		(property "Value" "M2"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0b3a2f73-797e-4c41-bca2-4be59ccee22a")
 			(effects
 				(font
@@ -492,6 +493,7 @@
 		(property "Reference" "H7"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d9600be8-2e40-444b-86ed-0092e10a0bc5")
 			(effects
 				(font
@@ -503,6 +505,7 @@
 		(property "Value" "M2"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f5be63f2-c385-43a2-b170-b466adb6f6cc")
 			(effects
 				(font
