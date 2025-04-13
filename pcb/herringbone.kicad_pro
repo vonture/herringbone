@@ -550,9 +550,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "herringbone.stl",
       "svg": "",
-      "vrml": ""
+      "vrml": "herringbone.wrl"
     },
     "page_layout_descr_file": ""
   },
